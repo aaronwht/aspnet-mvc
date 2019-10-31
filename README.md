@@ -1,3 +1,5 @@
-# ASP.NET MVC App which connects to a database and pulls content.
+# Basic ASP.NET MVC App
 
-Demonstrates various ways to conduct OR/M operations between C# objects and the reader object.
+Demonstrates various ways to conduct ORM (OR/M) operations between C# objects and a reader.
+
+## NOT PRODUCTION WORTHY - FOR EDUCATIONAL PURPOSES ONLY
