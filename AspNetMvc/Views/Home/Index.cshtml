@@ -1,0 +1,20 @@
+﻿@model List<Demo.Models.Person>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Hard Coded</title>
+</head>
+<body>
+    <div>
+        @foreach (var person in Model)
+        {
+            @person.FirstName<text>&#160;</text>@person.LastName<br />
+        }
+    </div>
+</body>
+</html>
